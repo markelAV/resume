@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../source/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../source/Comfortaa-Regular.ttf);
+}
+
+.progress_item {
+    margin-top: 2vh;
+}
+
+.progress_label {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #000000;
+}
+
+.progress_component {
+    background: #D9D9D9;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.progress_bar_progress {
+    border-radius: 10px;
+    height: 10px;
+}
+
+
+@media (min-width: 800px) {
+    .work-item {
+        display: flex;
+        flex-direction: column;
+        max-width: 18vw;
+        max-height: 10vh;
+        min-height: 200px;
+        padding-top: 10px;
+        margin-top: 1vh;
+
+        border: 0.5px solid #BBBBBB;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .work-item {
+        display: flex;
+        flex-direction: column;
+        /* max-width: 18vw; */
+        max-height: 10vh;
+        min-height: 200px;
+        padding-top: 10px;
+        margin-top: 1vh;
+
+        border: 0.5px solid #BBBBBB;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 10px;
+    }
+}
+
+.h1-work-item {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    color: #000000;
+}
+
+.name-company-work-item {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000000;
+}
+
+.time-work-item {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000000;
+}
+
+.description-work-item {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000000;
+}
+
+.skill_parameter_name {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    min-width: 10vw;
+    color: #000000;
+}
+
+.skill_parameter_value {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+@media (max-width: 800px) {
+    .content-skill-page {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        padding: 5vh 3vw;
+    }
+}
+
+@media (min-width: 800px) {
+    .block-skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 5vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .block-skills {
+        display: flex;
+        flex-direction: column;
+        /* padding: 5vh 5vw; */
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .block-cards-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 5vh;
+    }
+}
+
+@media (max-width: 1400px) {
+    .block-cards-info {
+        display: flex;
+        flex-direction: column;
+        padding: 0vh 2vw;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .skills-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 800px) {
+    .skills-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 800px) {
+    .block_progress {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .block_progress {
+
+    }
+}
+.skills-info {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 800px) {
+    .content-skill-page {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+}
+
+.block-work-and-education {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+

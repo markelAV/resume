@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../source/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../source/Comfortaa-Regular.ttf);
+}
+
+@media (max-width: 800px) {
+    .hidden-mobile {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 800px) {
+    .hidden-desktop {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.content {
+    margin-top: 7vh;
+}
+
+
+/*.header {*/
+/*    background: #FFFFFF;*/
+/*    box-shadow: 0px 2px 4px rgba(54, 54, 54, 0.25);*/
+/*  */
+/*   */
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.header__logo_link {
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+display: flex;
+margin-top: auto;
+margin-bottom: auto;
+
+
+color: #000000;
+text-decoration:none
+}*/
+
+
+.general_text_page {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+
+.parameter_value {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.parameter_name {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.text_page {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.text-page-label {
+    font-family: 'Comfortaa';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 24px;
+
+    color: #000000;
+}

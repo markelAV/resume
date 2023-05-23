@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../source/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../source/Comfortaa-Regular.ttf);
+}
+
+
+@media (min-width: 800px) {
+    .card-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        min-height: 60vh;
+        background: rgba(217, 217, 217, 0.01);
+        border: 1px solid #E1E1E1;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+        min-height: 60vh;
+        background: rgba(217, 217, 217, 0.01);
+        border: 1px solid #E1E1E1;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+}
+
+.card-contact-left-part {
+    padding: 5vh 5vw;
+}
+
+@media (min-width: 800px) {
+    .contact-info-field {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 2vh;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-info-field {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2vh;
+
+    }
+}
+
+
+@media (min-width: 800px) {
+    .block-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 2vh;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .block-social {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2vh;
+
+    }
+}
+
+.social-link {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    min-width: 35vh;
+
+    text-decoration: none;
+}
+
+.social-link:hover {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    min-width: 35vh;
+
+    color: #003FB8;
+    text-decoration: none;
+}
+
+.contact-photo {
+    padding: 0;
+    margin-left: auto;
+    margin-right: 0;
+    min-height: 60vh;
+    min-width: 30vw;
+    background: linear-gradient(358.91deg, #4FFF60 2.23%, rgba(79, 255, 96, 0) 99%);
+    background-image: url(../images/avatar.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0.25px solid #BBBBBB;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 10px 10px 300px;
+}
+
+.contact-field-name {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 10vw;
+
+    color: #000000;
+}
+
+.contact-field-value {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    color: #000000;
+
+}
+
+.social-item-link {
+    padding: 0;
+    margin-left: 10px;
+}
+
+.social-item-img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.social-link-text {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.social-link-text:hover {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    color: #003FB8;
+    text-decoration: none;
+}
+
+.content-contact-page {
+    padding-top: 10vh;
+}

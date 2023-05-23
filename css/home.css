@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../source/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(../source/Comfortaa-Regular.ttf);
+}
+
+.main_page_description_text {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.main_page_image {
+    overflow: hidden;
+    max-width: 50vw;
+}
+
+.button_download_cv {
+    background: #50DBFA;
+    border-radius: 10px;
+    padding: 1% 5%;
+}
+
+.button_download_cv:hover {
+    background: #2bcb45;
+    border-radius: 10px;
+    padding: 1% 5%;
+    text-decoration: none;
+}
+
+.button_download_text {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media (max-width: 800px) {
+    .content-home-page {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 800px) {
+    .content-home-page {
+        display: flex;
+        flex-direction: row;
+        padding-top: 5vh;
+    }
+}
+
+.home-page-description {
+    margin-top: 10vh;
+}
+
+.home-page-photo {
+
+}
+
+.home-page-short-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+
+.short-field {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+
+.main-page-description-texts {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.page-block-control {
+    display: flex;
+    margin-top: 3vh;
+}
